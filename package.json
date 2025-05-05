@@ -1,0 +1,25 @@
+{
+  "name": "jiracypress",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "ExecutaTeste": "npx cypress run --env XRAY_CLIENT_ID=717D93DD2DF1405D95173A6E1D38BFB9,XRAY_CLIENT_SECRET=f25e305b731daddb318b939ebd1b1296451e5ceb3f86d68ba510b28413273b81,JIRA_USERNAME=RAFAEL.SUZANO@SUPERBID.NET,JIRA_API_TOKEN=ATATT3xFfGF0r45rLB1cj2PrvsbYF-cPx17_O7AZFcGKUtRG9x17qngkNwkYW2H6iGVs_yzOYM7j6M_J9gC18aIeW1Nao_gNTnFWhJ2rnlh_aCqxdZla-B3Jnm_BK0qldzDK63vluelOvMMLnfZZkgU_O87_kjJaw2-BBkItcNg4Hj1SKE7dBoU=E0BC1A5B"
+
+
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "cypress": "^14.3.2"
+  },
+  "devDependencies": {
+    "cypress-multi-reporters": "^2.0.5",
+    "cypress-on-fix": "^1.1.0",
+    "cypress-xray-plugin": "^8.5.0",
+    "dotenv": "^16.5.0",
+    "mochawesome": "^7.1.3"
+  }
+}

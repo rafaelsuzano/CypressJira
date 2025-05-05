@@ -1,0 +1,16 @@
+{
+    "clientId": "717D93DD2DF1405D95173A6E1D38BFB9",
+    "clientSecret": "f25e305b731daddb318b939ebd1b1296451e5ceb3f86d68ba510b28413273b81",
+    "cloud": true,
+    "jiraBaseUrl": "https://superbid.atlassian.net/",
+    "projectKey": "AW", 
+    "testPlanKey": "AW-5", 
+    "testExecutionFields": {
+      "summary": "Execução automática Cypress",
+      "description": "Resultado dos testes automatizados com Cypress enviados via API",
+      "labels": ["cypress", "automated"]
+    }
+  }
+  
+
+ 
